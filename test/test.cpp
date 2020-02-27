@@ -41,7 +41,7 @@ int main(int argc,char* argv[])
     cout<<"runpath1:    "<<runpath1<<"\n"<<"exename1:     "<<exename1<<endl ;
     cout<<"runcmd1:    "<<runcmd1<<"\n"<<"realruncm1:     "<<realruncmd1<<endl ;
 
-    ini_sget(cfgfile,"plugin1","runpath1",NULL,"/tmp/aa/accctrl") ;
+    ini_sget(cfgfile,"plugin1","runpath1","/tmp/aa/accctrl","/tmp/accctrl") ;
     cout<<"runpath1:    "<<runpath1<<endl ;
 
 
