@@ -257,10 +257,8 @@ const char* ini_get(ini_t *ini, const char *section, const char *key) {
 }
 
 
-int ini_sget(
-  ini_t *ini, const char *section, const char *key,
-  const char *scanfmt, void *dst
-) {
+int ini_sget(ini_t *ini, const char *section, const char *key, const char *scanfmt, void *dst)
+{
   const char *val = ini_get(ini, section, key);
   if (!val) {
     return 0;
