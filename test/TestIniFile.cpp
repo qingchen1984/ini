@@ -222,3 +222,20 @@ int main(int argc, char* argv[])
 
 	return 0;
 }
+
+
+
+/*
+
+int main(int argc, char* argv[])
+{
+	string FileName = "watchdog.conf";
+
+	CIniFile::SetValue("runpath1","/tmp/aa/qdef","plugin1",FileName) ;
+
+
+
+	return 0 ;
+}
+
+ */

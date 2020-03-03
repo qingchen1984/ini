@@ -1,4 +1,4 @@
-#include "inifile.h"
+#include "IniFile.h"
 
 CIniFile::CIniFile(void)													// Default constructor
 {
